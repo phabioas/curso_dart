@@ -5,7 +5,8 @@ main() {
     - Map
   */
 
-  List aprovados = ['Ana', 'Carlos', 'Daniel', 'Rafael'];
+  // Aceita duplicidade
+  List aprovados = ['Ana', 'Carlos', 'Daniel', 'Rafael', 'Ana'];
 
   print(aprovados is List);
   print(aprovados);
@@ -33,7 +34,7 @@ main() {
   print(telefones.entries);
 
   // Set
-  // Aceita duplicidade
+  // Não aceita duplicidade
   var times = {'Vasco', 'Flamengo', 'Fortaleza', 'São Paulo'};
   print(times is Set);
   print(times);
